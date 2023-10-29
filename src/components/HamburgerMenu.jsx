@@ -55,7 +55,7 @@ export default function HamburgerMenu() {
             }}
           >
             <motion.div
-              className="flex flex-col min-h-screen justify-center space-y-10 text-2xl text-white items-center bg-gray-700 font-semibold"
+              className="flex flex-col min-h-screen justify-center space-y-10 text-2xl text-white items-center bg-gray-900 bg-opacity-80 font-semibold"
               initial="closed"
               animate="open"
               exit="closed"
