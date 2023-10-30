@@ -6,7 +6,7 @@ import HamburgerMenu from "./HamburgerMenu";
 export default function Header() {
   return (
     <>
-      <div className="px-5 bg-gray-900 bg-opacity-80 lg:px-2">
+      <div className="px-5 bg-gray-900 lg:px-2">
         <div className=" lg:max-w-7xl lg:mx-auto">
           <motion.div className="pb-8  flex justify-between items-center">
             {/* Logo */}

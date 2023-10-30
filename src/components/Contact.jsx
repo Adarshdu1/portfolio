@@ -25,7 +25,7 @@ export default function Contact() {
   };
   return (
     <div className="bg-[#111827] bg-opacity-70">
-      <div id="project" className=" max-w-7xl mx-auto pb-10">
+      <div id="contact" className=" max-w-7xl mx-auto pb-10">
         <div className="text-center text-5xl font-semibold p-10 mb-10 text-white">
           CONTACT ME
         </div>

@@ -42,7 +42,7 @@ export default function Hero() {
                   </Link>
                 </button>
                 <button className="p-2 hover:bg-red-600 active:bg-red-800 duration-100 hover:shadow-md transition-all rounded-lg bg-red-500 text-xl">
-                  <Link to={"#contact"}>HIRE ME</Link>
+                  <a href="#contact">HIRE ME</a>
                 </button>
               </div>
               <div className="mt-8 flex space-x-6">
