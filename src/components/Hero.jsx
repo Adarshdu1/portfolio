@@ -8,7 +8,8 @@ import { BsLinkedin, BsGithub, BsDiscord, BsInstagram } from "react-icons/bs";
 import { RiTwitterXFill } from "react-icons/ri";
 export default function Hero() {
   const imgUrl = "/profile_portfolio.png";
-  const cvUrl = "/ADARSH_2106153_RESUME.pdf";
+  const cvUrl =
+    "https://drive.google.com/file/d/1CJAL1d5mNlRKlHh1A9pQKc2l4zZFhN_7/view?usp=sharing";
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
