@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Project() {
   return (
     <div className="bg-[#e9e9f1] bg-opacity-70">
-      <div id="education" className="min-h-screen max-w-7xl mx-auto">
+      <div id="project" className="min-h-screen max-w-7xl mx-auto">
         <div className="text-center text-5xl font-semibold p-10 mb-10">
           PERSONAL PROJECTS
         </div>
