@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Project from "@/components/Project";
 import TechStack from "@/components/TechStack";
-import ScrollTrack from "@/components/scrollTrack";
+import ScrollTrack from "@/components/ScrollTrack";
 import { BrowserRouter } from "react-router-dom";
 export default function Home() {
   return (
