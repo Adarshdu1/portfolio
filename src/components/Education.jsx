@@ -44,7 +44,9 @@ export default function Education() {
                 <h1 className="text-2xl font-semibold">GRADUATION</h1>
                 <hr className="mb-5 border-gray-800" />
                 <p>
-                  <b className="text-xl uppercase">Bachelor's of Technology</b>
+                  <b className="text-xl uppercase">
+                    Bachelor&apos;s of Technology
+                  </b>
                 </p>
                 <p className="uppercase">
                   National Institute of Technology, Patna
