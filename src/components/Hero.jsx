@@ -8,8 +8,7 @@ import { BsLinkedin, BsGithub, BsDiscord, BsInstagram } from "react-icons/bs";
 import { RiTwitterXFill } from "react-icons/ri";
 export default function Hero() {
   const imgUrl = "/profile_portfolio.png";
-  const cvUrl =
-    "https://drive.google.com/file/d/1CJAL1d5mNlRKlHh1A9pQKc2l4zZFhN_7/view?usp=sharing";
+  const cvUrl = "https://drive.google.com";
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
@@ -32,7 +31,7 @@ export default function Hero() {
             </div>
             <div className="p-10 flex flex-col justify-center">
               <div className="text-6xl mt-[30%]">HI👋, I'M ADARSH</div>
-              <div className="text-4xl mt-4">
+              <div className="text-3xl mt-4">
                 A <span className="" ref={el}></span>
               </div>
               <div className="flex space-x-4 mt-8">

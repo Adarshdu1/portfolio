@@ -12,7 +12,6 @@ export default function Project() {
             <div className="">
               <iframe
                 src="https://findyourden.vercel.app/"
-                frameborder="0"
                 className="overflow-hidden h-96 w-full"
               ></iframe>
             </div>
@@ -51,7 +50,6 @@ export default function Project() {
             <div className="mt-10">
               <iframe
                 src="https://vitecast.vercel.app/"
-                frameborder="0"
                 className="overflow-hidden h-96 w-full"
               ></iframe>
             </div>
@@ -88,7 +86,6 @@ export default function Project() {
             <div className="mt-10">
               <iframe
                 src="https://movie-reviews-next.vercel.app/"
-                frameborder="0"
                 className="overflow-hidden h-96 w-full"
               ></iframe>
             </div>

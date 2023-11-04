@@ -12,7 +12,6 @@ export default function Education() {
             <div className="">
               <iframe
                 src="https://www.nitp.ac.in/"
-                frameborder="0"
                 className="overflow-hidden h-96 w-full"
               ></iframe>
             </div>
@@ -35,7 +34,6 @@ export default function Education() {
             <div className="mt-10">
               <iframe
                 src="https://chandrabhaniajnp.com/"
-                frameborder="0"
                 className="overflow-hidden h-96 w-full"
               ></iframe>
             </div>
@@ -60,7 +58,6 @@ export default function Education() {
             <div className="mt-10">
               <iframe
                 src="https://hariharsinghpublicschool.in/"
-                frameborder="0"
                 className="overflow-hidden h-96 w-full"
               ></iframe>
             </div>

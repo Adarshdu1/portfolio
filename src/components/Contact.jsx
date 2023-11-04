@@ -7,17 +7,17 @@ export default function Contact() {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_2ach70d",
-        "template_3qnz7eb",
+        process.env.NEXT_PUBLIC_SERVICE,
+        process.env.NEXT_PUBLIC_TEMPLATE,
         form.current,
-        "fSy08syzmiil-Pm2w"
+        process.env.NEXT_PUBLIC_USER_ID
       )
       .then(
-        (result) => {
+        () => {
           // console.log(result.text);
           alert("Your message has been sent successfully. Thank you!");
         },
-        (error) => {
+        () => {
           // console.log(error.text);
           alert("Sorry, your message could not be sent. Please try again.");
         }
@@ -37,14 +37,14 @@ export default function Contact() {
                 name="user_name"
                 placeholder="Enter your name..."
                 id=""
-                className="w-[500px] h-10 rounded-lg p-4"
+                className="w-[500px] h-10 rounded-lg p-4 "
               />
               <input
                 type="email"
                 name="user_email"
                 placeholder="Enter your email..."
                 id=""
-                className="w-[500px] h-10 rounded-lg p-4"
+                className="w-[500px]  h-10 rounded-lg p-4"
               />
               <button
                 type="submit"
@@ -55,7 +55,7 @@ export default function Contact() {
             </div>
             <div className="">
               <textarea
-                className="w-[500px] p-4 rounded-lg "
+                className="w-[500px]  p-4 rounded-lg "
                 name="message"
                 id=""
                 cols="30"

@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 
 const pathVariants = {
   hidden: {
-    opacity: 0,
     pathLength: 0,
   },
   visible: {

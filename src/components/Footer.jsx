@@ -11,6 +11,7 @@ export default function Footer() {
             <ul className="pt-2" style={{ listStyleType: "disc" }}>
               <li>
                 <Link
+                  className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
                   to={
                     "https://auth.geeksforgeeks.org/user/dubeyad2003/practice"
                   }
@@ -19,15 +20,26 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to={"https://leetcode.com/adarsh_20_03/"}>LeetCode</Link>
+                <Link
+                  className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
+                  to={"https://leetcode.com/adarsh_20_03/"}
+                >
+                  LeetCode
+                </Link>
               </li>
               <li>
-                <Link to={"https://www.codechef.com/users/adarsh_20_04"}>
+                <Link
+                  className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
+                  to={"https://www.codechef.com/users/adarsh_20_04"}
+                >
                   CodeChef
                 </Link>
               </li>
               <li>
-                <Link to={"https://codeforces.com/profile/hakdcode_1"}>
+                <Link
+                  className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
+                  to={"https://codeforces.com/profile/hakdcode_1"}
+                >
                   CodeForces
                 </Link>
               </li>
@@ -44,6 +56,7 @@ export default function Footer() {
               <ul className="pt-2" style={{ listStyleType: "disc" }}>
                 <li>
                   <Link
+                    className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
                     to={
                       "https://www.linkedin.com/in/adarsh-kumar-dubey-12o05o04/"
                     }
@@ -52,13 +65,26 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link to={"https://github.com/Adarshdu1"}>Github</Link>
+                  <Link
+                    className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
+                    to={"https://github.com/Adarshdu1"}
+                  >
+                    Github
+                  </Link>
                 </li>
                 <li>
-                  <Link to={"https://twitter.com/CodeAdarsh"}>Twitter</Link>
+                  <Link
+                    className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
+                    to={"https://twitter.com/CodeAdarsh"}
+                  >
+                    Twitter
+                  </Link>
                 </li>
                 <li>
-                  <Link to={"https://www.instagram.com/itz_adarsh125/"}>
+                  <Link
+                    className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
+                    to={"https://www.instagram.com/itz_adarsh125/"}
+                  >
                     Instagram
                   </Link>
                 </li>
