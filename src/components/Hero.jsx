@@ -30,7 +30,7 @@ export default function Hero() {
               <Image className="" src={imgUrl} height={600} width={600} />
             </div>
             <div className="p-10 flex flex-col justify-center">
-              <div className="text-6xl mt-[30%]">HI👋, I'M ADARSH</div>
+              <div className="text-6xl mt-[30%]">HI👋, I&apos;M ADARSH</div>
               <div className="text-3xl mt-4">
                 A <span className="" ref={el}></span>
               </div>
