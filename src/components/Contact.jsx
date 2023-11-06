@@ -1,28 +1,13 @@
 "use client";
 import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import { sendEmail } from "./EmailSender";
 
 export default function Contact() {
   const form = useRef();
-  const sendEmail = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        process.env.NEXT_PUBLIC_SERVICE,
-        process.env.NEXT_PUBLIC_TEMPLATE,
-        form.current,
-        process.env.NEXT_PUBLIC_USER_ID
-      )
-      .then(
-        () => {
-          // console.log(result.text);
-          alert("Your message has been sent successfully. Thank you!");
-        },
-        () => {
-          // console.log(error.text);
-          alert("Sorry, your message could not be sent. Please try again.");
-        }
-      );
+    sendEmail(form);
+    form.current.reset();
   };
   return (
     <div className="bg-[#111827] bg-opacity-70">
@@ -30,7 +15,7 @@ export default function Contact() {
         <div className="text-center text-5xl font-semibold p-10 mb-10 text-white">
           CONTACT ME
         </div>
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={handleSubmit}>
           <div className="flex justify-evenly">
             <div className="flex flex-col space-y-5 items-start justify-start">
               <input
