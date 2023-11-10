@@ -1,6 +1,6 @@
 "use client";
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -13,7 +13,7 @@ export default function Footer() {
               <li>
                 <Link
                   className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
-                  to={
+                  href={
                     "https://auth.geeksforgeeks.org/user/dubeyad2003/practice"
                   }
                 >
@@ -23,7 +23,7 @@ export default function Footer() {
               <li>
                 <Link
                   className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
-                  to={"https://leetcode.com/adarsh_20_03/"}
+                  href={"https://leetcode.com/adarsh_20_03/"}
                 >
                   LeetCode
                 </Link>
@@ -31,7 +31,7 @@ export default function Footer() {
               <li>
                 <Link
                   className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
-                  to={"https://www.codechef.com/users/adarsh_20_04"}
+                  href={"https://www.codechef.com/users/adarsh_20_04"}
                 >
                   CodeChef
                 </Link>
@@ -39,7 +39,7 @@ export default function Footer() {
               <li>
                 <Link
                   className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
-                  to={"https://codeforces.com/profile/hakdcode_1"}
+                  href={"https://codeforces.com/profile/hakdcode_1"}
                 >
                   CodeForces
                 </Link>
@@ -47,9 +47,9 @@ export default function Footer() {
             </ul>
           </div>
           <div className="uppercase flex flex-col items-center justify-center">
-            <p>All Right Reserved</p>
-            <p>Copyright &copy; 2023</p>
-            <p>Made using Next.js</p>
+            <div>All Right Reserved</div>
+            <div>Copyright &copy; 2023</div>
+            <div>Made using Next.js</div>
           </div>
           <div className="">
             <h1 className="uppercase">Connect with me</h1>
@@ -58,7 +58,7 @@ export default function Footer() {
                 <li>
                   <Link
                     className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
-                    to={
+                    href={
                       "https://www.linkedin.com/in/adarsh-kumar-dubey-12o05o04/"
                     }
                   >
@@ -68,7 +68,7 @@ export default function Footer() {
                 <li>
                   <Link
                     className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
-                    to={"https://github.com/Adarshdu1"}
+                    href={"https://github.com/Adarshdu1"}
                   >
                     Github
                   </Link>
@@ -76,7 +76,7 @@ export default function Footer() {
                 <li>
                   <Link
                     className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
-                    to={"https://twitter.com/CodeAdarsh"}
+                    href={"https://twitter.com/CodeAdarsh"}
                   >
                     Twitter
                   </Link>
@@ -84,7 +84,7 @@ export default function Footer() {
                 <li>
                   <Link
                     className=" hover:shadow-sm hover:underline hover:underline-offset-2 hover:underline-transparent hover:text-white  hover:text-opacity-40 hover:duration-50 hover:ease-in-out hover:delay-5 "
-                    to={"https://www.instagram.com/itz_adarsh125/"}
+                    href={"https://www.instagram.com/itz_adarsh125/"}
                   >
                     Instagram
                   </Link>

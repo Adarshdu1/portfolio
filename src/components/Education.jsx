@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 
 export default function Education() {
@@ -21,14 +20,16 @@ export default function Education() {
                 <div className="">
                   <h1 className="text-2xl font-semibold">INTERMEDIATE</h1>
                   <hr className="mb-5 border-gray-800" />
-                  <p>
+                  <div>
                     <b className="text-xl uppercase">
                       12<sup>th</sup> Board, CBSE
                     </b>
-                  </p>
-                  <p className="uppercase">Harihar Public School</p>
-                  <p className="uppercase">Stream: Science with Mathematics</p>
-                  <p className="uppercase">Year: 2019 - 2021</p>
+                  </div>
+                  <div className="uppercase">Harihar Public School</div>
+                  <div className="uppercase">
+                    Stream: Science with Mathematics
+                  </div>
+                  <div className="uppercase">Year: 2019 - 2021</div>
                 </div>
               </div>
             </div>
@@ -44,18 +45,18 @@ export default function Education() {
               <div className="">
                 <h1 className="text-2xl font-semibold">GRADUATION</h1>
                 <hr className="mb-5 border-gray-800" />
-                <p>
+                <div>
                   <b className="text-xl uppercase">
                     Bachelor&apos;s of Technology
                   </b>
-                </p>
-                <p className="uppercase">
+                </div>
+                <div className="uppercase">
                   National Institute of Technology, Patna
-                </p>
-                <p className="uppercase">
+                </div>
+                <div className="uppercase">
                   Branch: Computer Science and Engineering
-                </p>
-                <p className="uppercase">Year: 2021 - 2025</p>
+                </div>
+                <div className="uppercase">Year: 2021 - 2025</div>
               </div>
             </div>
             <div className="mt-10">
@@ -69,13 +70,13 @@ export default function Education() {
                 <div className="">
                   <h1 className="text-2xl font-semibold">MATRICULATION</h1>
                   <hr className="mb-5 border-gray-800" />
-                  <p>
+                  <div>
                     <b className="text-xl uppercase">
                       10<sup>th</sup> Board, CBSE
                     </b>
-                  </p>
-                  <p className="uppercase">C.B. Internation Academy</p>
-                  <p className="uppercase">Year: 2019 - 2021</p>
+                  </div>
+                  <div className="uppercase">C.B. Internation Academy</div>
+                  <div className="uppercase">Year: 2019 - 2021</div>
                 </div>
               </div>
             </div>

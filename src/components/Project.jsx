@@ -1,6 +1,6 @@
-"use client";
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
+
 export default function Project() {
   return (
     <div className="bg-[#e9e9f1] bg-opacity-70">
@@ -21,11 +21,11 @@ export default function Project() {
                 <div className="">
                   <h1 className="text-2xl font-bold">MOVIEREVIEWS</h1>
                   <hr className="mb-5 border-gray-800" />
-                  <p>
-                    <p className="font-semibold text-xl uppercase">
-                      Inspired by IMDB, for movie reviews.
-                    </p>
+
+                  <p className="font-semibold text-xl uppercase">
+                    Inspired by IMDB, for movie reviews.
                   </p>
+
                   <p className="uppercase">
                     <b>Tech Stack: </b>
                     Next.js, TMDB API, and Tailwind CSS
@@ -33,12 +33,12 @@ export default function Project() {
                   <div className="mt-3 flex justify-between items-center">
                     <div className="space-x-5">
                       <button className="p-3 rounded-lg bg-red-500 hover:bg-red-600 active:bg-red-700 text-white w-20">
-                        <Link to={"https://github.com/Adarshdu1/IMDb"}>
+                        <Link href={"https://github.com/Adarshdu1/IMDb"}>
                           CODE
                         </Link>
                       </button>
                       <button className="p-3 rounded-lg bg-blue-500 hover:bg-blue-600 active:bg-blue-700 text-white w-20">
-                        <Link to={"https://movie-reviews-next.vercel.app/"}>
+                        <Link href={"https://movie-reviews-next.vercel.app/"}>
                           LIVE
                         </Link>
                       </button>
@@ -60,11 +60,11 @@ export default function Project() {
               <div className="">
                 <h1 className="text-2xl font-bold">FINDYOURDEN</h1>
                 <hr className="mb-5 border-gray-800" />
-                <p>
-                  <p className="font-semibold text-xl uppercase">
-                    Renting and buying house made easy.
-                  </p>
+
+                <p className="font-semibold text-xl uppercase">
+                  Renting and buying house made easy.
                 </p>
+
                 <p className="uppercase">
                   <b>Tech Stack: </b>
                   React.js, Firebase, and Tailwind CSS
@@ -72,12 +72,12 @@ export default function Project() {
                 <div className="mt-3 flex justify-between items-center">
                   <div className="space-x-5">
                     <button className="p-3 rounded-lg bg-red-500 hover:bg-red-600 active:bg-red-700 text-white w-20">
-                      <Link to={"https://github.com/Adarshdu1/Realtor-Clone"}>
+                      <Link href={"https://github.com/Adarshdu1/Realtor-Clone"}>
                         CODE
                       </Link>
                     </button>
                     <button className="p-3 rounded-lg bg-blue-500 hover:bg-blue-600 active:bg-blue-700 text-white w-20">
-                      <Link to={"https://findyourden.vercel.app/"}>LIVE</Link>
+                      <Link href={"https://findyourden.vercel.app/"}>LIVE</Link>
                     </button>
                   </div>
                   <div className="uppercase">June, 2023</div>
@@ -95,11 +95,11 @@ export default function Project() {
                 <div className="">
                   <h1 className="text-2xl font-bold">VITECAST</h1>
                   <hr className="mb-5 border-gray-800" />
-                  <p>
-                    <p className="font-semibold text-xl uppercase">
-                      A weather forecasting web application.
-                    </p>
+
+                  <p className="font-semibold text-xl uppercase">
+                    A weather forecasting web application.
                   </p>
+
                   <p className="uppercase">
                     <b>Tech Stack: </b>
                     React.js, Vite.js, and Tailwind CSS
@@ -107,12 +107,12 @@ export default function Project() {
                   <div className="mt-3 flex justify-between items-center">
                     <div className="space-x-5">
                       <button className="p-3 rounded-lg bg-red-500 hover:bg-red-600 active:bg-red-700 text-white w-20">
-                        <Link to={"https://github.com/Adarshdu1/vitecast"}>
+                        <Link href={"https://github.com/Adarshdu1/vitecast"}>
                           CODE
                         </Link>
                       </button>
                       <button className="p-3 rounded-lg bg-blue-500 hover:bg-blue-600 active:bg-blue-700 text-white w-20">
-                        <Link to={"https://vitecast.vercel.app/"}>LIVE</Link>
+                        <Link href={"https://vitecast.vercel.app/"}>LIVE</Link>
                       </button>
                     </div>
                     <div className="uppercase">August, 2023</div>
