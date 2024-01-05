@@ -52,7 +52,7 @@ export default function Hero() {
                 <Link href="https://github.com/Adarshdu1">
                   <BsGithub className="hover:opacity-80 active:opacity-70 text-white text-4xl" />
                 </Link>
-                <Link href="https://twitter.com/CodeAdarsh">
+                <Link href="https://twitter.com/">
                   <RiTwitterXFill className="text-white text-4xl hover:opacity-80 active:opacity-70" />
                 </Link>
                 <Link href="https://www.instagram.com/itz_adarsh125/">
